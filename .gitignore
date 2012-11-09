@@ -1,0 +1,40 @@
+# Python
+*.pyc
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# IDEs
+/.idea
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+*.mo
+
+# Version Control
+*.orig
+*.sqlite
+
+#Mr Developer
+.mr.developer.cfg
+
+# Project Structure:
+*local_settings.py
+logs/*

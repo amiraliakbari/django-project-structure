@@ -1,0 +1,9 @@
+{
+    'libs':[
+        {
+            'name':'debug_toolbar',
+            'repository':'https://github.com/django-debug-toolbar/django-debug-toolbar.git',
+            'directory': 'debug_toolbar'
+        }
+    ]
+}

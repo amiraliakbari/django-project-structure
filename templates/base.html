@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load url from future %}
+{% load basic %}
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="/static/images/favicon.ico" rel="shortcut icon">
+        {% css 'style' %}
+        {% block CSS %}{% endblock CSS %}
+        {% block JS %}{% endblock JS %}
+	</head>
+
+	<body>
+        <div class="Header">
+            {% block header %}
+                <p style="text-align: center; padding: 20px 0">بسم الله الرحمن الرحیم</p>
+            {% endblock header %}
+        </div>
+        <div id="sidebar" style="display: inline-block; width: 23%; vertical-align: top;">
+            پیمایش:
+        </div>
+        <div id="content" style="display: inline-block; width: 75%; vertical-align: top;">
+            {% block content %}
+            {% endblock content %}
+        </div>
+
+        <div style="text-align: center; margin: 50px 20% 0; opacity: 0.2;">
+            <hr/>
+            ۱۳۹۱
+        </div>
+        {% block body_js %}{% endblock %}
+	</body>
+</html>
