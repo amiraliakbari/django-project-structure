@@ -1,4 +1,5 @@
-ساختار نمونه‌ی پروژه‌ها
-=====================
+Django Project Structure
+========================
 
-این مخزن یک ساختار مناسب و استاندارد برای توسعه‌ی پروژه‌های جنگو ارائه می‌کند.
+A sample Django project structure, ensuring best practices in your code structure with little overhead,
+providing out-of-the-box support for platforms like heroku.

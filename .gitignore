@@ -1,6 +1,7 @@
-# Python
-*.pyc
-*.py[co]
+*.py[cod]
+
+# C extensions
+*.so
 
 # Packages
 *.egg
@@ -14,27 +15,35 @@ var
 sdist
 develop-eggs
 .installed.cfg
+lib
+lib64
+__pycache__
 
 # Installer logs
 pip-log.txt
 
-# IDEs
-/.idea
-
 # Unit test / coverage reports
 .coverage
 .tox
+nosetests.xml
 
-#Translations
+# Translations
 *.mo
 
-# Version Control
-*.orig
-*.sqlite
-
-#Mr Developer
+# Mr Developer
 .mr.developer.cfg
+.project
+.pydevproject
 
-# Project Structure:
-*local_settings.py
-logs/*
+# IDEs
+/.idea/*
+
+# Django
+*.log
+*.pot
+*.sqlite
+/static-root/*
+
+# Project Structure
+/project_name/env/local.py
+/env.txt

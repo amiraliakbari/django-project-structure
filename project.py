@@ -1,1 +1,1 @@
-NAME = 'sma'
+NAME = 'project_name'
